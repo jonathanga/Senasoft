@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonathanguerrero.senasoftapp.LugarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/espaciolateral"
+            android:layout_marginRight="@dimen/espaciolateral"
+            android:orientation="vertical">
+            <com.bluejamesbond.text.DocumentView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciosuperior"
+                android:id="@+id/document1Lugar"/>
+            <com.bluejamesbond.text.DocumentView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciosuperior"
+                android:id="@+id/document2Lugar"/>
+            <ImageView
+                android:layout_marginTop="@dimen/espaciosuperior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cartago1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+            <ImageView
+                android:layout_marginTop="@dimen/espaciosuperior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cartago2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

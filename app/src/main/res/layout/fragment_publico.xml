@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jonathanguerrero.senasoftapp.PublicoFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/espaciolateral"
+            android:layout_marginRight="@dimen/espaciolateral"
+            android:orientation="vertical">
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTitulo1Publico"
+                style="@style/Titulo1"/>
+            <com.bluejamesbond.text.DocumentView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciosuperior"
+                android:id="@+id/document1Publico"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTitulo2Publico"
+                android:layout_marginTop="@dimen/espaciosuperior"
+                style="@style/Titulo1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTitulo3Publico"
+                android:layout_marginTop="@dimen/espaciosuperior"
+                style="@style/Titulo1"/>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.jonathanguerrero.senasoftapp.InformacionFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/espaciolateral"
+            android:layout_marginRight="@dimen/espaciolateral"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="@dimen/espaciosuperior"
+                android:id="@+id/frginformacionTitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTitulo1Informacion"
+                style="@style/Titulo1"/>
+            <com.bluejamesbond.text.DocumentView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciosuperior"
+                android:id="@+id/document1Informacion"/>
+            <com.bluejamesbond.text.DocumentView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciosuperiorParrafo"
+                android:id="@+id/document2Informacion"/>
+            <com.bluejamesbond.text.DocumentView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciosuperiorParrafo"
+                android:id="@+id/document3Informacion"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

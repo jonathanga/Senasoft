@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">SenasoftApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Textos del Drawer -->
+    <string name="txt1Drawer">SENASOFT</string>
+    <string name="txt2Drawer">Red de Informática, Diseño y Desarrollo de Software</string>
+    <string name="opcion1drawer">Sobre SENASOFT</string>
+    <string name="opcion2drawer">Categorias</string>
+    <string name="opcion3drawer">Resultados</string>
+    <string name="opcion4drawer">Agenda Académica</string>
+    <string name="separadordrawer">SENASoftApp</string>
+    <string name="opcion5drawer">Acerca de ...</string>
+    <!-- Textos del Tab de SobreSENASOFT -->
+    <string name="opcion1Tab">INFORMACIÓN</string>
+    <string name="opcion2Tab">DIRIGIDO A</string>
+    <string name="opcion3Tab">LUGAR</string>
+    <!-- Textos del Tab de Resultados -->
+    <string name="dia1Tab">DIA 1</string>
+    <string name="dia2Tab">DIA 2</string>
+    <string name="dia3Tab">DIA 3</string>
+    <string name="dia4Tab">TOTAL</string>
+
+    <!-- Textos del Fragment InformacionFragment -->
+    <string name="txtTitulo1Informacion">Qué es?</string>
+    <string name="txtTexto1Informacion">SENASoft es el mayor encuentro de tecnología realizado por el SENA, como iniciativa de la Red de Conocimiento en Informática, Diseño y Desarrollo de Software y mediante el cual la Entidad propicia entre los aprendices e instructores de los programas en ejecución de la red de conocimiento compartir aprendizajes y experiencias para fortalecer los procesos formativos.</string>
+    <string name="txtTexto2Informacion">En esta octava versión, la regional Valle del Cauca reunirá a 400 aprendices y más de 50 instructores de todo el país, que durante los tres días de competencia disfrutarán de diferentes actividades en el municipio de Cartago, sumado a la muestra de habilidades en las 14 categorías, una agenda académica con expertos internacionales y nacionales, muestra comercial, rueda de proyección empresarial para impulsar el emprendimiento digital y además actos culturales y gastronómicos tipicos de la región.</string>
+    <string name="txtTexto3Informacion">Durante los tres días de competencia, serán llevadas a cabo diferentes actividades, entre ellas, una agenda académica con expertos internacionales y nacionales, muestra comercial, rueda de proyección empresarial para impulsar el emprendimiento digital, entre otras.</string>
+    <string name="txtTitulo2Informacion">Versiones</string>
+
+    <!-- Textos del Fragment PublicoFragment -->
+    <string name="txtTitulo1Publico">Aprendices</string>
+    <string name="txtTexto1Publico">En etapa lectiva o productiva de los programas de formación Análisis y desarrollo de sistemas de información, Animación 3D, Producción de multimedia, Desarrollo de videojuegos, Programación de software , Gestión de redes de datos, Animación digital, Producción de medios audiovisuales digitales, Mantenimiento de equipos de cómputo, Diseño e Integración de multimedia, Mantenimiento de Equipos de Cómputo, Diseño e Instalación de Cableado Estructurado e Instalación de redes de computadores.</string>
+    <string name="txtTitulo2Publico">Comunidad SENA</string>
+    <string name="txtTitulo3Publico">Empresarios</string>
+
+    <!-- Textos del Fragment PublicoFragment -->
+    <string name="txtTexto1Lugar">Centro de Tecnologias Agroindustriales</string>
+    <string name="txtTexto2Lugar">Cra. 9 #12-141, Cartago, Valle del Cauca, Colombia</string>
+
+    <!-- Textos del Fragment AboutFragment -->
+    <string name="txtTitulo1About">Desarrollo</string>
+    <string name="txtTexto1About">Jonathan Guerrero Astaiza \nInstructor SENA\nCentro de Teleinformática y Producción Industrial\nRegional Cauca\nRed de Informática, diseño y desarrollo de sotfware\nBienestar al aprendiz Dirección General </string>
+
+    <!-- Texto de conexion al web Services -->
+    <string name="txtMsgConexion1">Datos Cargados</string>
+
+    <!-- Textos del Fragment CategoryFragment -->
+    <string name="txtTitulo1Categoria">Algoritma</string>
+    <string name="txtTitulo2Categoria">Aplicaciones .NET</string>
+    <string name="txtTitulo3Categoria">Aplicaciones móviles con Android</string>
+    <string name="txtTitulo4Categoria">Aplicaciones web con PHP y SCRUM</string>
+    <string name="txtTitulo5Categoria">Bases de Datos</string>
+    <string name="txtTitulo6Categoria">Java web</string>
+    <string name="txtTitulo7Categoria">Animación 3D</string>
+    <string name="txtTitulo8Categoria">Producción de medios audiovisuales</string>
+    <string name="txtTitulo9Categoria">Producción multimedia</string>
+    <string name="txtTitulo10Categoria">Videojuegos</string>
+    <string name="txtTitulo11Categoria">Instalación y hardening de sistemas operativos</string>
+    <string name="txtTitulo12Categoria">Redes de datos</string>
+    <string name="txtTitulo13Categoria">Video Mapping</string>
+    <string name="txtTitulo14Categoria">Emprendimiento Digital</string>
+    <string name="txtTexto1Categoria">Plantear soluciones algorítmicas a problemas diversos, en el menor tiempo posible.</string>
+    <string name="txtTexto2Categoria">Desarrollar aplicaciones Windows, utilizando la suite de Visual Studio.NET.</string>
+    <string name="txtTexto3Categoria">Desarrollar aplicaciones móviles para Android, usando buenas prácticas.</string>
+    <string name="txtTexto4Categoria">Desarrollar sitios web dinámicos, incorporando metodología SCRUM</string>
+    <string name="txtTexto5Categoria">Construir sentencias SQL a partir de un diseño de base de datos.</string>
+    <string name="txtTexto6Categoria">Desarrollar aplicaciones web funcionales, basadas en Java.</string>
+    <string name="txtTexto7Categoria">Diseñar, modelar y animar un personaje con su escenario.</string>
+    <string name="txtTexto8Categoria">Realizar una producción audiovisual, teniendo en cuenta las tres fases.</string>
+    <string name="txtTexto9Categoria">Diseñar e implementar soluciones de comunicación visual e interactiva.</string>
+    <string name="txtTexto10Categoria">Diseñar, desarrollar e implementar un demo funcional de un videojuego.</string>
+    <string name="txtTexto11Categoria">Instalar un sistema operativo, con su respectivo aseguramiento.</string>
+    <string name="txtTexto12Categoria">Diseñar e implementar soluciones de interconexión y servicios de red</string>
+    <string name="txtTexto13Categoria">Proyección interactiva sobre formas especificas</string>
+    <string name="txtTexto14Categoria">Estamos convirtiendo las TIC en un motor de la economia Colombiana</string>
+
+</resources>

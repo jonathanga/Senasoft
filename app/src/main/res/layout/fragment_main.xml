@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.jonathanguerrero.senasoftapp.MainFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+            <android.support.design.widget.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tabMain"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/colorVerdeSENA"
+                app:tabSelectedTextColor="@color/colorPrimaryDarkBlack"
+                app:tabIndicatorColor="@color/cafeSenasoft"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="80">
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="388dp"
+                android:id="@+id/viewPager"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

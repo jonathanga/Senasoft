@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e8c40</color>
+    <color name="colorPrimaryDark">#727274</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorVerdeSENA">#238276</color>
+    <color name="colorPrimaryDarkBlack">#000000</color>
+    <color name="cafeSenasoft">#aa8164</color>
+    <color name="amarilloSenasoft">#fffe0f</color>
+</resources>

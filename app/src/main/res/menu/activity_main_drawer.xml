@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/opcion1drawer" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/opcion2drawer" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/opcion3drawer" />
+    </group>
+
+    <item android:title="@string/separadordrawer">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="@string/opcion5drawer" />
+        </menu>
+    </item>
+
+</menu>
